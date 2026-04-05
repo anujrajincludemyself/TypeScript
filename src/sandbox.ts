@@ -17,3 +17,14 @@ const circ = (diameter: number) => {
     return diameter * Math.PI;
 }
 console.log(circ(10));
+
+let mixed: (String | number | boolean);
+
+mixed = 25;
+mixed = "hello";
+mixed = true;
+
+console.log(mixed);
+
+let age: any;
+age = 25;
